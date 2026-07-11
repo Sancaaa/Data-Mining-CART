@@ -1,0 +1,72 @@
+=== TAHAP PREPROCESSING ===
+Jumlah baris dimuat       : 500
+Fitur dataset             : ['No_Transaksi', 'Tanggal', 'Waktu', 'Customer_ID', 'Items', 'Total_Item', 'Total_Harga', 'Metode_Pembayaran']
+
+--- Preview 3 baris pertama ---
+    No_Transaksi    Tanggal Waktu Customer_ID                                               Items  Total_Item  Total_Harga Metode_Pembayaran
+TRX-20240612-001 2024-06-12 09:01   CUST-1190                            teh, biskuit, gula, tisu           4        41000             Tunai
+TRX-20240519-001 2024-05-19 09:37   CUST-1109 susu, roti tawar, teh, biskuit, gula, telur, pisang           7        92000             Debit
+TRX-20240523-001 2024-05-23 11:45   CUST-1167                                        bawang, soda           2        15000             Debit
+
+Rentang tanggal           : 2024-01-01 s/d 2024-06-29
+Jumlah customer unik      : 183
+Rata-rata total item/tx   : 4.3
+Rata-rata harga/tx        : Rp 71,472
+
+Distribusi Metode Pembayaran:
+  Tunai   : 207 transaksi (41.4%)
+  QRIS    : 128 transaksi (25.6%)
+  Debit   : 115 transaksi (23.0%)
+  Kredit  : 50 transaksi (10.0%)
+
+Transaksi valid (>=2 item) : 500
+Jumlah item unik           : 48
+Rata-rata item/transaksi   : 4.3
+
+Jumlah Data Train   (80%) : 400
+Jumlah Data Test    (20%) : 100
+
+=== TRAINING PHASE: Mencari Frequent Itemset ===
+  Frequent 1-itemset : 39
+  Frequent 2-itemset : 53
+  Frequent 3-itemset : 24
+  Frequent 4-itemset : 3
+  Total rules       : 240
+
+=== TOP 10 ASSOCIATION RULES (urut: Lift ↓, Confidence ↓) ===
+   1. {'bawang', 'kentang'}
+      --> {'wortel', 'daging sapi'}
+      Support=0.062  Confidence=1.000  Lift=16.000
+   2. {'bawang', 'daging sapi'}
+      --> {'kentang', 'wortel'}
+      Support=0.062  Confidence=1.000  Lift=16.000
+   3. {'kentang', 'wortel'}
+      --> {'bawang', 'daging sapi'}
+      Support=0.062  Confidence=1.000  Lift=16.000
+   4. {'wortel', 'daging sapi'}
+      --> {'bawang', 'kentang'}
+      Support=0.062  Confidence=1.000  Lift=16.000
+   5. {'kentang', 'daging sapi'}
+      --> {'bawang', 'wortel'}
+      Support=0.062  Confidence=1.000  Lift=14.815
+   6. {'bawang', 'wortel'}
+      --> {'kentang', 'daging sapi'}
+      Support=0.062  Confidence=0.926  Lift=14.815
+   7. {'sabun', 'sampo'}
+      --> {'tisu'}
+      Support=0.045  Confidence=0.947  Lift=13.067
+   8. {'gula', 'biskuit'}
+      --> {'teh'}
+      Support=0.045  Confidence=0.947  Lift=13.067
+   9. {'tisu'}
+      --> {'sabun', 'sampo'}
+      Support=0.045  Confidence=0.621  Lift=13.067
+  10. {'teh'}
+      --> {'gula', 'biskuit'}
+      Support=0.045  Confidence=0.621  Lift=13.067
+
+=== EVALUASI PHASE: Uji Rules di Data Test (20%) ===
+  Transaksi test              : 100
+  Terkover rules              : 93  → Coverage  = 93.00%
+  Prediksi benar (Hit)        : 61  → Hit Rate  = 61.00%
+  Precision (hit/covered)     : 65.59%

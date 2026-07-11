@@ -1,0 +1,53 @@
+C:\Users\luffy\Downloads\report-Datmin\Kmean\makro\kmeans (1).py:139: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+C:\Users\luffy\Downloads\report-Datmin\Kmean\makro\kmeans (1).py:252: UserWarning: FigureCanvasAgg is non-interactive, and thus cannot be shown
+  plt.show()
+=== TAHAP PREPROCESSING INITIAL ===
+Jumlah data awal: 499 baris
+Jumlah data setelah pembersihan duplikat: 499 baris
+
+Jumlah Data Train   (80%): 399
+Jumlah Data Predict (20%): 100
+
+=== ELBOW METHOD: Mencari K Optimal ===
+  K= 1  SSE = 56.8505
+  K= 2  SSE = 34.7119
+  K= 3  SSE = 12.4921
+  K= 4  SSE = 6.7809
+  K= 5  SSE = 4.1798
+  K= 6  SSE = 3.8252
+  K= 7  SSE = 3.4192
+  K= 8  SSE = 3.2720
+  K= 9  SSE = 3.1300
+  K=10  SSE = 2.8911
+
+→ K=3 dipilih (lihat 'siku' pada grafik elbow di atas).
+
+=== TRAINING PHASE: K-Means (K=3, random init dari data) ===
+Centroid awal (dipilih acak dari data train):
+  C0 = (0.5446, 0.2793)
+  C1 = (0.1584, 0.1382)
+  C2 = (0.6139, 0.2003)
+
+Centroid akhir setelah konvergen:
+  C0 = (0.7181, 0.7763)  [91 titik]
+  C1 = (0.2554, 0.3592)  [139 titik]
+  C2 = (0.7525, 0.1532)  [169 titik]
+
+SSE Training : 12.4921
+=== METRIK EVALUASI K-MEANS (Klasifikasi ─ pembanding) ===
+Accuracy  : 0.87
+Precision : 0.88
+Recall    : 0.87
+F1-Score  : 0.87
+
+Confusion Matrix :
+[[23  0 10]
+ [ 2 34  0]
+ [ 0  1 30]]
+
+=== METRIK EVALUASI K-MEANS (Standar / Internal Metrics) ===
+SSE (Inertia)           : 2.8042   ← lebih kecil lebih baik
+Silhouette Score        : 0.5831   ← mendekati +1 lebih baik
+Davies-Bouldin Index    : 0.6109   ← mendekati 0 lebih baik
+Calinski-Harabasz Index : 185.5191   ← lebih besar lebih baik

@@ -1,0 +1,30 @@
+============================================================
+  METRIK MIKRO CART  (training-fit pada 10 baris dataMikro)
+============================================================
+Library berhasil di-import!
+Class Node berhasil didefinisikan.
+Class DecisionTreeClassifier berhasil didefinisikan.
+Fungsi plot_tree berhasil didefinisikan.
+Fungsi evaluate_model berhasil didefinisikan.
+Fungsi depth_tuning_analysis berhasil didefinisikan.
+
+[Classification Tree — Mikro]
+  Accuracy  : 1.0000
+  Precision : 1.0000
+  Recall    : 1.0000
+  F1-Score  : 1.0000
+  y_true    : ['STARFORMING', 'STARFORMING', 'STARBURST', 'STARFORMING', 'STARBURST', 'STARFORMING', 'STARFORMING', 'STARBURST', 'STARFORMING', 'STARFORMING']
+  y_pred    : ['STARFORMING', 'STARFORMING', 'STARBURST', 'STARFORMING', 'STARBURST', 'STARFORMING', 'STARFORMING', 'STARBURST', 'STARFORMING', 'STARFORMING']
+Library berhasil di-import!
+Class Node berhasil didefinisikan.
+Class RegressionTreeRegressor berhasil didefinisikan.
+Fungsi plot_tree berhasil didefinisikan.
+Fungsi evaluate_model berhasil didefinisikan.
+Fungsi depth_tuning_analysis berhasil didefinisikan.
+
+[Regression Tree — Mikro]
+  MSE       : 0.000988
+  RMSE      : 0.031425
+  R-Squared : 0.739858
+  y_true    : [0.08, 0.11, 0.23, 0.1, 0.24, 0.11, 0.12, 0.09, 0.08, 0.22]
+  y_pred    : [0.09, 0.1375, 0.23, 0.1375, 0.24, 0.09, 0.1375, 0.09, 0.09, 0.1375]

@@ -1,0 +1,227 @@
+====================================================================
+  TRACE APRIORI MANUAL – Dataset: grocery_transactions.csv
+  Menggunakan 15 transaksi pertama
+  MIN_SUPPORT=0.2 (≥3/15 transaksi)
+  MIN_CONF=0.5  MIN_LIFT=1.0
+====================================================================
+
+📋 DATA TRANSAKSI (15 baris pertama):
+ No  No_Transaksi          Items
+────────────────────────────────────────────────────────────────────
+   1. [TRX-20240612-001]  teh, biskuit, gula, tisu
+   2. [TRX-20240519-001]  susu, roti tawar, teh, biskuit, gula, telur, pisang
+   3. [TRX-20240523-001]  bawang, soda
+   4. [TRX-20240102-001]  biskuit, krim
+   5. [TRX-20240327-001]  susu, minyak goreng, tomat, bawang, deterjen, keju, telur, roti gandum
+   6. [TRX-20240201-001]  jus jeruk, gula, tisu, sabun, sampo
+   7. [TRX-20240112-001]  roti tawar, telur, mentega, susu
+   8. [TRX-20240426-001]  minyak goreng, teh, tomat, biskuit, bawang, es krim, gula, sabun, telur
+   9. [TRX-20240604-001]  tahu, bayam
+  10. [TRX-20240612-002]  soda, roti gandum
+  11. [TRX-20240412-001]  air mineral, nugget
+  12. [TRX-20240613-001]  keripik, soda, bawang, kentang, garam, tisu, cokelat, daging sapi, wortel
+  13. [TRX-20240529-001]  apel, pisang
+  14. [TRX-20240113-001]  kecap, tahu, tempe, minyak goreng, tisu, sabun, sampo
+  15. [TRX-20240429-001]  deterjen, es krim
+
+====================================================================
+  LANGKAH 1 — Buat L1 (Frequent 1-Itemset)
+  Hitung support setiap item, ambil yang ≥ MIN_SUPPORT
+====================================================================
+
+  Total item unik ditemukan: 34
+
+  Item                           Count   Support  Status
+  ───────────────────────────────────────────────────────
+  air mineral                        1     0.067  ❌ pruned
+  apel                               1     0.067  ❌ pruned
+  bawang                             4     0.267  ✅ FREQUENT
+  bayam                              1     0.067  ❌ pruned
+  biskuit                            4     0.267  ✅ FREQUENT
+  cokelat                            1     0.067  ❌ pruned
+  daging sapi                        1     0.067  ❌ pruned
+  deterjen                           2     0.133  ❌ pruned
+  es krim                            2     0.133  ❌ pruned
+  garam                              1     0.067  ❌ pruned
+  gula                               4     0.267  ✅ FREQUENT
+  jus jeruk                          1     0.067  ❌ pruned
+  kecap                              1     0.067  ❌ pruned
+  keju                               1     0.067  ❌ pruned
+  kentang                            1     0.067  ❌ pruned
+  keripik                            1     0.067  ❌ pruned
+  krim                               1     0.067  ❌ pruned
+  mentega                            1     0.067  ❌ pruned
+  minyak goreng                      3     0.200  ✅ FREQUENT
+  nugget                             1     0.067  ❌ pruned
+  pisang                             2     0.133  ❌ pruned
+  roti gandum                        2     0.133  ❌ pruned
+  roti tawar                         2     0.133  ❌ pruned
+  sabun                              3     0.200  ✅ FREQUENT
+  sampo                              2     0.133  ❌ pruned
+  soda                               3     0.200  ✅ FREQUENT
+  susu                               3     0.200  ✅ FREQUENT
+  tahu                               2     0.133  ❌ pruned
+  teh                                3     0.200  ✅ FREQUENT
+  telur                              4     0.267  ✅ FREQUENT
+  tempe                              1     0.067  ❌ pruned
+  tisu                               4     0.267  ✅ FREQUENT
+  tomat                              2     0.133  ❌ pruned
+  wortel                             1     0.067  ❌ pruned
+
+  → L1 menghasilkan 10 frequent 1-itemset:
+     {'bawang'}  (support=0.267)
+     {'biskuit'}  (support=0.267)
+     {'gula'}  (support=0.267)
+     {'telur'}  (support=0.267)
+     {'tisu'}  (support=0.267)
+     {'minyak goreng'}  (support=0.200)
+     {'sabun'}  (support=0.200)
+     {'soda'}  (support=0.200)
+     {'susu'}  (support=0.200)
+     {'teh'}  (support=0.200)
+
+====================================================================
+  LANGKAH 2 — Generate Kandidat C2 & Buat L2 (Frequent 2-Itemset)
+  Gabungkan setiap pasang item dari L1, hitung support-nya
+====================================================================
+
+  Jumlah kandidat C2 dari L1: 45
+
+  Kandidat                                      Count   Support  Status
+  ─────────────────────────────────────────────────────────────────
+  {'bawang', 'biskuit'}                             1     0.067  ❌ pruned
+  {'bawang', 'gula'}                                1     0.067  ❌ pruned
+  {'bawang', 'minyak goreng'}                       2     0.133  ❌ pruned
+  {'bawang', 'sabun'}                               1     0.067  ❌ pruned
+  {'bawang', 'soda'}                                2     0.133  ❌ pruned
+  {'bawang', 'susu'}                                1     0.067  ❌ pruned
+  {'bawang', 'teh'}                                 1     0.067  ❌ pruned
+  {'bawang', 'telur'}                               2     0.133  ❌ pruned
+  {'bawang', 'tisu'}                                1     0.067  ❌ pruned
+  {'biskuit', 'gula'}                               3     0.200  ✅ FREQUENT
+  {'biskuit', 'minyak goreng'}                      1     0.067  ❌ pruned
+  {'biskuit', 'sabun'}                              1     0.067  ❌ pruned
+  {'biskuit', 'soda'}                               0     0.000  ❌ pruned
+  {'biskuit', 'susu'}                               1     0.067  ❌ pruned
+  {'biskuit', 'teh'}                                3     0.200  ✅ FREQUENT
+  {'biskuit', 'telur'}                              2     0.133  ❌ pruned
+  {'biskuit', 'tisu'}                               1     0.067  ❌ pruned
+  {'gula', 'minyak goreng'}                         1     0.067  ❌ pruned
+  {'gula', 'sabun'}                                 2     0.133  ❌ pruned
+  {'gula', 'soda'}                                  0     0.000  ❌ pruned
+  {'gula', 'susu'}                                  1     0.067  ❌ pruned
+  {'gula', 'teh'}                                   3     0.200  ✅ FREQUENT
+  {'gula', 'telur'}                                 2     0.133  ❌ pruned
+  {'gula', 'tisu'}                                  2     0.133  ❌ pruned
+  {'minyak goreng', 'sabun'}                        2     0.133  ❌ pruned
+  {'minyak goreng', 'soda'}                         0     0.000  ❌ pruned
+  {'minyak goreng', 'susu'}                         1     0.067  ❌ pruned
+  {'minyak goreng', 'teh'}                          1     0.067  ❌ pruned
+  {'minyak goreng', 'telur'}                        2     0.133  ❌ pruned
+  {'minyak goreng', 'tisu'}                         1     0.067  ❌ pruned
+  {'sabun', 'soda'}                                 0     0.000  ❌ pruned
+  {'sabun', 'susu'}                                 0     0.000  ❌ pruned
+  {'sabun', 'teh'}                                  1     0.067  ❌ pruned
+  {'sabun', 'telur'}                                1     0.067  ❌ pruned
+  {'sabun', 'tisu'}                                 2     0.133  ❌ pruned
+  {'soda', 'susu'}                                  0     0.000  ❌ pruned
+  {'soda', 'teh'}                                   0     0.000  ❌ pruned
+  {'soda', 'telur'}                                 0     0.000  ❌ pruned
+  {'soda', 'tisu'}                                  1     0.067  ❌ pruned
+  {'susu', 'teh'}                                   1     0.067  ❌ pruned
+  {'susu', 'telur'}                                 3     0.200  ✅ FREQUENT
+  {'susu', 'tisu'}                                  0     0.000  ❌ pruned
+  {'teh', 'telur'}                                  2     0.133  ❌ pruned
+  {'teh', 'tisu'}                                   1     0.067  ❌ pruned
+  {'telur', 'tisu'}                                 0     0.000  ❌ pruned
+
+  → L2 menghasilkan 4 frequent 2-itemset:
+     {'gula', 'biskuit'}  (support=0.200)
+     {'teh', 'biskuit'}  (support=0.200)
+     {'gula', 'teh'}  (support=0.200)
+     {'telur', 'susu'}  (support=0.200)
+
+====================================================================
+  LANGKAH 3 — Generate Kandidat C3 & Buat L3 (Frequent 3-Itemset)
+  Join L2 + pruning: buang kandidat jika ada (k-1)-subsetnya tidak frequent
+====================================================================
+
+  Kandidat C3 dari join L2: 1
+
+  Kandidat                                                   Pruned?   Support  Status
+  ────────────────────────────────────────────────────────────────────────────────
+  {'biskuit', 'gula', 'teh'}                                      ok     0.200  ✅ FREQUENT
+
+  → L3 menghasilkan 1 frequent 3-itemset:
+     {'gula', 'teh', 'biskuit'}  (support=0.200)
+
+====================================================================
+  LANGKAH 4 — Generate Association Rules
+  Dari setiap frequent itemset (size ≥ 2), buat semua kemungkinan A → B
+  Filter: Confidence ≥ 0.5  dan  Lift ≥ 1.0
+====================================================================
+
+  📦 Itemset: {'gula', 'biskuit'}  (support=0.200)
+     {'gula'} → {'biskuit'}
+       conf=0.750  lift=2.812  ✅ RULE
+     {'biskuit'} → {'gula'}
+       conf=0.750  lift=2.812  ✅ RULE
+
+  📦 Itemset: {'teh', 'biskuit'}  (support=0.200)
+     {'teh'} → {'biskuit'}
+       conf=1.000  lift=3.750  ✅ RULE
+     {'biskuit'} → {'teh'}
+       conf=0.750  lift=3.750  ✅ RULE
+
+  📦 Itemset: {'gula', 'teh'}  (support=0.200)
+     {'gula'} → {'teh'}
+       conf=0.750  lift=3.750  ✅ RULE
+     {'teh'} → {'gula'}
+       conf=1.000  lift=3.750  ✅ RULE
+
+  📦 Itemset: {'telur', 'susu'}  (support=0.200)
+     {'telur'} → {'susu'}
+       conf=0.750  lift=3.750  ✅ RULE
+     {'susu'} → {'telur'}
+       conf=1.000  lift=3.750  ✅ RULE
+
+  📦 Itemset: {'gula', 'teh', 'biskuit'}  (support=0.200)
+     {'gula'} → {'teh', 'biskuit'}
+       conf=0.750  lift=3.750  ✅ RULE
+     {'teh'} → {'gula', 'biskuit'}
+       conf=1.000  lift=5.000  ✅ RULE
+     {'biskuit'} → {'gula', 'teh'}
+       conf=0.750  lift=3.750  ✅ RULE
+     {'gula', 'teh'} → {'biskuit'}
+       conf=1.000  lift=3.750  ✅ RULE
+     {'gula', 'biskuit'} → {'teh'}
+       conf=1.000  lift=5.000  ✅ RULE
+     {'teh', 'biskuit'} → {'gula'}
+       conf=1.000  lift=3.750  ✅ RULE
+
+====================================================================
+  HASIL AKHIR — ASSOCIATION RULES YANG TERBENTUK
+====================================================================
+
+  Total rules: 14
+
+   No  Antecedent → Consequent                        Support   Conf    Lift
+  ────────────────────────────────────────────────────────────────────────
+    1. {'teh'} → {'gula', 'biskuit'}                    0.200  1.000   5.000
+    2. {'gula', 'biskuit'} → {'teh'}                    0.200  1.000   5.000
+    3. {'teh'} → {'biskuit'}                            0.200  1.000   3.750
+    4. {'teh'} → {'gula'}                               0.200  1.000   3.750
+    5. {'susu'} → {'telur'}                             0.200  1.000   3.750
+    6. {'gula', 'teh'} → {'biskuit'}                    0.200  1.000   3.750
+    7. {'teh', 'biskuit'} → {'gula'}                    0.200  1.000   3.750
+    8. {'biskuit'} → {'teh'}                            0.200  0.750   3.750
+    9. {'gula'} → {'teh'}                               0.200  0.750   3.750
+   10. {'telur'} → {'susu'}                             0.200  0.750   3.750
+   11. {'gula'} → {'teh', 'biskuit'}                    0.200  0.750   3.750
+   12. {'biskuit'} → {'gula', 'teh'}                    0.200  0.750   3.750
+   13. {'gula'} → {'biskuit'}                           0.200  0.750   2.812
+   14. {'biskuit'} → {'gula'}                           0.200  0.750   2.812
+
+====================================================================
+  SELESAI.
+====================================================================

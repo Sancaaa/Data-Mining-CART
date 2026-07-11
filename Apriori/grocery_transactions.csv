@@ -1,0 +1,501 @@
+No_Transaksi,Tanggal,Waktu,Customer_ID,Items,Total_Item,Total_Harga,Metode_Pembayaran
+TRX-20240612-001,2024-06-12,09:01,CUST-1190,"teh, biskuit, gula, tisu",4,41000,Tunai
+TRX-20240519-001,2024-05-19,09:37,CUST-1109,"susu, roti tawar, teh, biskuit, gula, telur, pisang",7,92000,Debit
+TRX-20240523-001,2024-05-23,11:45,CUST-1167,"bawang, soda",2,15000,Debit
+TRX-20240102-001,2024-01-02,20:51,CUST-1041,"biskuit, krim",2,30000,Tunai
+TRX-20240327-001,2024-03-27,09:05,CUST-1098,"susu, minyak goreng, tomat, bawang, deterjen, keju, telur, roti gandum",8,137000,Debit
+TRX-20240201-001,2024-02-01,14:05,CUST-1142,"jus jeruk, gula, tisu, sabun, sampo",5,72000,QRIS
+TRX-20240112-001,2024-01-12,18:14,CUST-1198,"roti tawar, telur, mentega, susu",4,74000,Tunai
+TRX-20240426-001,2024-04-26,18:53,CUST-1094,"minyak goreng, teh, tomat, biskuit, bawang, es krim, gula, sabun, telur",9,124000,Debit
+TRX-20240604-001,2024-06-04,18:10,CUST-1137,"tahu, bayam",2,12000,Tunai
+TRX-20240612-002,2024-06-12,19:35,CUST-1057,"soda, roti gandum",2,24000,QRIS
+TRX-20240412-001,2024-04-12,12:04,CUST-1055,"air mineral, nugget",2,33000,Debit
+TRX-20240613-001,2024-06-13,15:09,CUST-1068,"keripik, soda, bawang, kentang, garam, tisu, cokelat, daging sapi, wortel",9,134000,Debit
+TRX-20240529-001,2024-05-29,14:23,CUST-1057,"apel, pisang",2,23000,Tunai
+TRX-20240113-001,2024-01-13,09:09,CUST-1161,"kecap, tahu, tempe, minyak goreng, tisu, sabun, sampo",7,93000,Tunai
+TRX-20240429-001,2024-04-29,16:16,CUST-1142,"deterjen, es krim",2,38000,Tunai
+TRX-20240517-001,2024-05-17,20:17,CUST-1197,"susu, roti tawar, tomat, kopi, telur",5,95000,Debit
+TRX-20240308-001,2024-03-08,16:48,CUST-1046,"minyak goreng, susu, roti tawar, telur, pisang",5,82000,Debit
+TRX-20240209-001,2024-02-09,13:48,CUST-1042,"jeruk, apel, kecap, anggur",4,74000,Tunai
+TRX-20240105-001,2024-01-05,09:59,CUST-1093,"cokelat, muffin",2,25000,Tunai
+TRX-20240525-001,2024-05-25,09:05,CUST-1188,"roti tawar, telur, yogurt, susu",4,66000,QRIS
+TRX-20240520-001,2024-05-20,10:16,CUST-1136,"air mineral, anggur",2,40000,QRIS
+TRX-20240625-001,2024-06-25,11:45,CUST-1080,"bawang, jeruk, tisu, sabun, sampo",5,64000,Debit
+TRX-20240304-001,2024-03-04,11:04,CUST-1087,"keripik, soda, teh, roti tawar, biskuit, gula, cokelat",7,76000,Tunai
+TRX-20240610-001,2024-06-10,08:14,CUST-1018,"bagel, pisang",2,21000,Tunai
+TRX-20240620-001,2024-06-20,15:13,CUST-1139,"biskuit, kentang, kopi, sosis, nugget, saos, cokelat",7,130000,QRIS
+TRX-20240218-001,2024-02-18,09:06,CUST-1169,"kecap, tahu, minyak goreng, bayam, deterjen, tempe",6,70000,Tunai
+TRX-20240616-001,2024-06-16,18:06,CUST-1016,"minyak goreng, tomat, bawang, telur, cokelat",5,75000,Tunai
+TRX-20240517-002,2024-05-17,15:08,CUST-1109,"susu, teh, biskuit, bawang, gula, yogurt, pisang",7,76000,QRIS
+TRX-20240520-002,2024-05-20,09:03,CUST-1167,"cokelat, susu",2,31000,Tunai
+TRX-20240504-001,2024-05-04,15:13,CUST-1103,"roti tawar, tahu",2,19000,Kredit
+TRX-20240308-002,2024-03-08,20:50,CUST-1117,"jus jeruk, daging sapi, bawang, kentang, krim, wortel",6,120000,Tunai
+TRX-20240115-001,2024-01-15,17:47,CUST-1139,"mentega, minyak goreng, susu, roti tawar, tomat, bawang, garam, telur",8,115000,Debit
+TRX-20240515-001,2024-05-15,10:03,CUST-1131,"susu, roti tawar, es krim, kopi, gula, telur",6,121000,QRIS
+TRX-20240413-001,2024-04-13,09:56,CUST-1146,"nugget, saos, sosis",3,60000,Tunai
+TRX-20240617-001,2024-06-17,17:36,CUST-1134,"kecap, minyak goreng, bawang, ayam, sosis",5,97000,QRIS
+TRX-20240302-001,2024-03-02,12:25,CUST-1034,"telur, bayam",2,29000,Kredit
+TRX-20240119-001,2024-01-19,08:29,CUST-1160,"anggur, bagel",2,48000,Tunai
+TRX-20240308-003,2024-03-08,10:59,CUST-1090,"ikan, permen",2,35000,Tunai
+TRX-20240519-002,2024-05-19,19:19,CUST-1157,"mangga, sosis",2,40000,Tunai
+TRX-20240618-001,2024-06-18,09:56,CUST-1035,"tisu, biskuit, kopi, cokelat",4,69000,Debit
+TRX-20240310-001,2024-03-10,12:38,CUST-1054,"minyak goreng, es krim",2,42000,QRIS
+TRX-20240509-001,2024-05-09,15:16,CUST-1014,"kecap, tahu, minyak goreng, susu, roti tawar, keju, tempe, roti gandum",8,118000,Tunai
+TRX-20240203-001,2024-02-03,18:16,CUST-1042,"roti tawar, mangga",2,30000,Tunai
+TRX-20240625-002,2024-06-25,10:34,CUST-1010,"tomat, yogurt",2,22000,Tunai
+TRX-20240403-001,2024-04-03,20:55,CUST-1011,"cokelat, es krim",2,35000,QRIS
+TRX-20240331-001,2024-03-31,20:35,CUST-1105,"kopi, cokelat",2,50000,Kredit
+TRX-20240215-001,2024-02-15,14:01,CUST-1046,"sosis, wortel",2,29000,QRIS
+TRX-20240304-002,2024-03-04,12:10,CUST-1180,"mentega, susu, soda, jus jeruk, roti tawar, keju, roti gandum",7,114000,QRIS
+TRX-20240427-001,2024-04-27,13:19,CUST-1059,"sabun, sampo, tempe, tisu",4,52000,Tunai
+TRX-20240118-001,2024-01-18,20:17,CUST-1090,"kecap, tahu, minyak goreng, croissant, keju, tempe",6,93000,QRIS
+TRX-20240307-001,2024-03-07,10:37,CUST-1068,"kecap, tahu, telur, tempe, minyak goreng, sosis, deterjen, nugget, saos",9,149000,Debit
+TRX-20240510-001,2024-05-10,09:24,CUST-1148,"mentega, susu, roti tawar, bawang, kentang, jeruk, daging sapi, wortel",8,150000,Kredit
+TRX-20240517-003,2024-05-17,18:46,CUST-1190,"ikan, tomat",2,38000,Tunai
+TRX-20240619-001,2024-06-19,13:39,CUST-1081,"kacang, deterjen",2,27000,Debit
+TRX-20240619-002,2024-06-19,14:20,CUST-1104,"wortel, jus jeruk",2,19000,QRIS
+TRX-20240407-001,2024-04-07,18:47,CUST-1045,"kecap, minyak goreng, roti tawar, mangga, bawang, ayam",6,105000,Tunai
+TRX-20240223-001,2024-02-23,14:50,CUST-1149,"minyak goreng, tomat, es krim, bawang, telur",5,80000,Tunai
+TRX-20240501-001,2024-05-01,20:57,CUST-1189,"kecap, susu, minyak goreng, roti tawar, bawang, ayam, telur, cokelat",8,142000,QRIS
+TRX-20240227-001,2024-02-27,20:12,CUST-1038,"susu, teh, biskuit, bayam, gula, yogurt, pisang",7,75000,Debit
+TRX-20240610-002,2024-06-10,17:12,CUST-1184,"tempe, cokelat",2,21000,Tunai
+TRX-20240625-003,2024-06-25,08:57,CUST-1193,"tomat, soda",2,17000,Tunai
+TRX-20240627-001,2024-06-27,16:29,CUST-1013,"bayam, biskuit, kopi, cokelat",4,65000,Tunai
+TRX-20240428-001,2024-04-28,18:33,CUST-1144,"apel, anggur, jeruk, deterjen, saos",5,90000,QRIS
+TRX-20240419-001,2024-04-19,16:28,CUST-1041,"keripik, bawang",2,14000,QRIS
+TRX-20240612-003,2024-06-12,12:49,CUST-1200,"biskuit, sabun, sampo, tisu",4,56000,Debit
+TRX-20240314-001,2024-03-14,11:17,CUST-1086,"keripik, yogurt, cokelat, soda",4,46000,Tunai
+TRX-20240408-001,2024-04-08,19:09,CUST-1181,"kecap, tahu, minyak goreng, anggur, ayam, tempe",6,117000,Debit
+TRX-20240116-001,2024-01-16,11:53,CUST-1108,"jeruk, apel, gula, anggur",4,76000,Tunai
+TRX-20240102-002,2024-01-02,13:19,CUST-1193,"anggur, biskuit, kopi, tisu, cokelat",5,104000,QRIS
+TRX-20240603-001,2024-06-03,11:31,CUST-1057,"susu, tahu, yogurt, pisang",4,45000,Tunai
+TRX-20240622-001,2024-06-22,20:25,CUST-1186,"susu, gula, kopi, yogurt, tempe, pisang",6,93000,Debit
+TRX-20240618-002,2024-06-18,08:05,CUST-1165,"susu, teh, muffin, keju, roti gandum",5,77000,Tunai
+TRX-20240324-001,2024-03-24,11:29,CUST-1084,"biskuit, kopi, cokelat, wortel",4,67000,Tunai
+TRX-20240121-001,2024-01-21,15:01,CUST-1192,"minyak goreng, tomat, nugget, bawang, telur",5,88000,Tunai
+TRX-20240615-001,2024-06-15,08:48,CUST-1008,"croissant, saos",2,28000,Tunai
+TRX-20240202-001,2024-02-02,15:42,CUST-1030,"keripik, teh, biskuit, gula, sabun",5,52000,QRIS
+TRX-20240212-001,2024-02-12,17:38,CUST-1192,"kacang, mentega",2,31000,Debit
+TRX-20240320-001,2024-03-20,17:43,CUST-1097,"bawang, kentang, bagel, daging sapi, wortel",5,101000,Debit
+TRX-20240609-001,2024-06-09,11:06,CUST-1179,"gula, roti gandum",2,29000,Tunai
+TRX-20240419-002,2024-04-19,18:23,CUST-1018,"minyak goreng, tomat, bawang, telur, wortel",5,67000,QRIS
+TRX-20240128-001,2024-01-28,14:23,CUST-1163,"sampo, krim",2,45000,Debit
+TRX-20240513-001,2024-05-13,18:17,CUST-1158,"tomat, bayam",2,13000,QRIS
+TRX-20240531-001,2024-05-31,12:20,CUST-1063,"biskuit, bawang",2,16000,Tunai
+TRX-20240428-002,2024-04-28,17:39,CUST-1172,"mentega, susu, roti tawar, teh, telur",5,82000,Debit
+TRX-20240331-002,2024-03-31,20:16,CUST-1088,"roti tawar, mangga, sosis, nugget, saos",5,90000,Debit
+TRX-20240218-002,2024-02-18,09:15,CUST-1185,"keripik, sabun, cokelat, soda",4,44000,Debit
+TRX-20240505-001,2024-05-05,15:50,CUST-1005,"kecap, tahu, minyak goreng, teh, biskuit, gula, kacang, tempe",8,88000,QRIS
+TRX-20240404-001,2024-04-04,15:35,CUST-1136,"bawang, kentang, sabun, daging sapi, wortel",5,100000,Debit
+TRX-20240319-001,2024-03-19,12:14,CUST-1031,"keju, tisu",2,37000,Debit
+TRX-20240625-004,2024-06-25,10:12,CUST-1056,"garam, deterjen",2,23000,Kredit
+TRX-20240514-001,2024-05-14,17:18,CUST-1026,"ikan, soda",2,39000,Tunai
+TRX-20240104-001,2024-01-04,19:34,CUST-1033,"mentega, susu, roti tawar, yogurt, sabun",5,76000,Debit
+TRX-20240505-002,2024-05-05,09:55,CUST-1004,"susu, bawang, ayam, yogurt, pisang",5,79000,Tunai
+TRX-20240114-001,2024-01-14,12:55,CUST-1123,"kecap, tahu, tempe, susu, minyak goreng, roti tawar, gula, telur, bagel",9,126000,Debit
+TRX-20240114-002,2024-01-14,10:09,CUST-1145,"keju, cokelat",2,43000,Debit
+TRX-20240416-001,2024-04-16,17:38,CUST-1159,"keripik, soda, bawang, kacang, cokelat",5,47000,QRIS
+TRX-20240419-003,2024-04-19,12:36,CUST-1159,"susu, minyak goreng, roti tawar, bawang, kentang, telur, daging sapi, wortel",8,162000,Tunai
+TRX-20240618-003,2024-06-18,09:10,CUST-1062,"susu, roti tawar, gula, kopi, telur, wortel",6,108000,Debit
+TRX-20240601-001,2024-06-01,15:18,CUST-1009,"bayam, bawang, kentang, sabun, daging sapi, wortel",6,105000,Tunai
+TRX-20240229-001,2024-02-29,12:50,CUST-1161,"jeruk, tomat, apel, anggur",4,70000,Tunai
+TRX-20240227-002,2024-02-27,18:09,CUST-1069,"kopi, muffin",2,45000,QRIS
+TRX-20240601-002,2024-06-01,19:52,CUST-1146,"keju, bayam",2,33000,QRIS
+TRX-20240628-001,2024-06-28,14:17,CUST-1129,"susu, kecap, yogurt, pisang",4,50000,Tunai
+TRX-20240420-001,2024-04-20,19:20,CUST-1155,"roti tawar, es krim, telur, susu",4,72000,QRIS
+TRX-20240527-001,2024-05-27,17:01,CUST-1196,"gula, roti gandum",2,29000,QRIS
+TRX-20240214-001,2024-02-14,15:33,CUST-1167,"kecap, minyak goreng, bawang, ayam, garam",5,80000,Debit
+TRX-20240505-003,2024-05-05,09:30,CUST-1090,"minyak goreng, tomat, bawang, kopi, telur",5,95000,Tunai
+TRX-20240626-001,2024-06-26,15:18,CUST-1170,"bayam, susu",2,21000,Tunai
+TRX-20240323-001,2024-03-23,09:49,CUST-1104,"anggur, sosis",2,57000,Debit
+TRX-20240114-003,2024-01-14,11:33,CUST-1093,"air mineral, susu, yogurt, muffin, pisang",5,53000,Tunai
+TRX-20240203-002,2024-02-03,12:28,CUST-1179,"roti tawar, sampo, mentega, susu",4,75000,Tunai
+TRX-20240521-001,2024-05-21,08:35,CUST-1105,"susu, roti tawar, nugget, keju, telur, roti gandum",6,123000,QRIS
+TRX-20240507-001,2024-05-07,19:18,CUST-1131,"kentang, cokelat",2,25000,Debit
+TRX-20240207-001,2024-02-07,14:12,CUST-1154,"bagel, biskuit, kopi, cokelat",4,73000,Tunai
+TRX-20240416-002,2024-04-16,13:59,CUST-1130,"mentega, susu, roti tawar, deterjen, kacang",5,77000,QRIS
+TRX-20240528-001,2024-05-28,18:31,CUST-1039,"susu, mangga, ayam, yogurt, pisang",5,91000,QRIS
+TRX-20240406-001,2024-04-06,15:59,CUST-1083,"tahu, gula",2,21000,Tunai
+TRX-20240415-001,2024-04-15,08:20,CUST-1191,"tahu, biskuit, kopi, sosis, cokelat",5,89000,QRIS
+TRX-20240615-002,2024-06-15,10:31,CUST-1010,"minyak goreng, nugget, tomat, bawang, sosis, telur, saos",7,120000,Tunai
+TRX-20240426-002,2024-04-26,08:46,CUST-1037,"sabun, sampo, bagel, tisu",4,59000,Debit
+TRX-20240308-004,2024-03-08,13:39,CUST-1178,"susu, roti tawar, anggur, es krim, telur",5,107000,Tunai
+TRX-20240322-001,2024-03-22,18:45,CUST-1195,"keripik, saos, cokelat, soda",4,42000,Tunai
+TRX-20240610-003,2024-06-10,18:58,CUST-1074,"tomat, mentega",2,30000,QRIS
+TRX-20240629-001,2024-06-29,09:28,CUST-1043,"telur, roti gandum",2,39000,QRIS
+TRX-20240316-001,2024-03-16,13:23,CUST-1111,"keripik, kecap, tahu, soda, minyak goreng, kopi, tempe, cokelat",8,114000,Tunai
+TRX-20240605-001,2024-06-05,14:39,CUST-1175,"biskuit, kopi, cokelat, soda",4,69000,Debit
+TRX-20240306-001,2024-03-06,15:16,CUST-1171,"apel, susu, anggur, es krim, jeruk, yogurt, pisang",7,120000,Tunai
+TRX-20240423-001,2024-04-23,13:37,CUST-1077,"kecap, tahu, minyak goreng, bayam, kacang, tempe",6,61000,Tunai
+TRX-20240408-002,2024-04-08,15:06,CUST-1061,"minyak goreng, tomat, permen, bawang, sabun, telur",6,77000,Tunai
+TRX-20240617-002,2024-06-17,14:17,CUST-1003,"kecap, sabun, sampo, tisu",4,58000,QRIS
+TRX-20240314-002,2024-03-14,20:51,CUST-1059,"minyak goreng, tomat, telur, bawang",4,60000,Tunai
+TRX-20240305-001,2024-03-05,18:48,CUST-1185,"mentega, minyak goreng",2,44000,Kredit
+TRX-20240614-001,2024-06-14,08:19,CUST-1113,"minyak goreng, susu, tomat, bawang, kentang, telur, daging sapi, wortel",8,158000,Kredit
+TRX-20240324-002,2024-03-24,19:26,CUST-1045,"pisang, jeruk, apel, anggur",4,70000,Kredit
+TRX-20240212-002,2024-02-12,12:58,CUST-1124,"tisu, ayam",2,44000,QRIS
+TRX-20240429-002,2024-04-29,09:09,CUST-1194,"ikan, mangga",2,48000,Tunai
+TRX-20240411-001,2024-04-11,08:16,CUST-1138,"tahu, minyak goreng, tomat, bawang, garam, tisu, sampo, sabun, telur",9,118000,QRIS
+TRX-20240405-001,2024-04-05,09:43,CUST-1060,"soda, nugget, saos, sosis",4,69000,Debit
+TRX-20240611-001,2024-06-11,15:58,CUST-1180,"kecap, tahu, minyak goreng, yogurt, tempe",5,61000,Tunai
+TRX-20240110-001,2024-01-10,12:31,CUST-1030,"keripik, tahu, soda, biskuit, kopi, cokelat",6,84000,Debit
+TRX-20240620-002,2024-06-20,19:44,CUST-1139,"kentang, daging sapi, bawang, wortel",4,88000,QRIS
+TRX-20240505-004,2024-05-05,17:26,CUST-1072,"minyak goreng, teh, tomat, biskuit, bawang, gula, telur, cokelat",8,107000,QRIS
+TRX-20240126-001,2024-01-26,18:23,CUST-1140,"tempe, muffin",2,16000,Tunai
+TRX-20240201-002,2024-02-01,15:05,CUST-1170,"sabun, sampo, tisu, muffin",4,56000,QRIS
+TRX-20240303-001,2024-03-03,10:50,CUST-1145,"keju, garam, susu, roti gandum",4,64000,Tunai
+TRX-20240229-002,2024-02-29,13:49,CUST-1038,"biskuit, krim",2,30000,Kredit
+TRX-20240518-001,2024-05-18,12:51,CUST-1045,"mentega, susu, roti tawar, keju, roti gandum",5,93000,Tunai
+TRX-20240301-001,2024-03-01,17:20,CUST-1005,"mentega, susu, roti tawar, jeruk, gula, kopi, keju",7,139000,QRIS
+TRX-20240501-002,2024-05-01,15:49,CUST-1093,"soda, susu, roti tawar, telur, pisang",5,69000,Kredit
+TRX-20240112-002,2024-01-12,19:50,CUST-1169,"susu, yogurt, pisang, muffin",4,48000,Kredit
+TRX-20240412-002,2024-04-12,14:43,CUST-1028,"susu, biskuit, kopi, bagel, cokelat",5,89000,Tunai
+TRX-20240207-002,2024-02-07,09:08,CUST-1071,"kecap, tahu, sosis, nugget, saos",5,79000,Debit
+TRX-20240426-003,2024-04-26,16:38,CUST-1111,"susu, roti tawar, tomat, bawang, kentang, telur, daging sapi, wortel",8,148000,Debit
+TRX-20240228-001,2024-02-28,14:21,CUST-1117,"bawang, kentang, telur, daging sapi, wortel",5,112000,Debit
+TRX-20240619-003,2024-06-19,12:23,CUST-1040,"bagel, susu",2,29000,QRIS
+TRX-20240124-001,2024-01-24,14:06,CUST-1191,"mangga, muffin",2,28000,Debit
+TRX-20240523-002,2024-05-23,16:21,CUST-1172,"minyak goreng, susu, tomat, bawang, deterjen, muffin, keju, telur, roti gandum",9,147000,Kredit
+TRX-20240602-001,2024-06-02,12:22,CUST-1027,"teh, biskuit, gula, sosis",4,54000,Debit
+TRX-20240128-002,2024-01-28,13:54,CUST-1143,"apel, soda, anggur, jeruk, gula",5,85000,QRIS
+TRX-20240523-003,2024-05-23,20:52,CUST-1160,"kecap, sabun, sampo, tisu",4,58000,Kredit
+TRX-20240626-002,2024-06-26,12:01,CUST-1047,"apel, anggur, ayam, jeruk, daging sapi",5,162000,Tunai
+TRX-20240206-001,2024-02-06,17:42,CUST-1103,"susu, bawang, kentang, tisu, sabun, sampo, daging sapi, wortel",8,150000,QRIS
+TRX-20240225-001,2024-02-25,14:26,CUST-1117,"minyak goreng, tomat, bawang, deterjen, telur",5,78000,QRIS
+TRX-20240525-002,2024-05-25,17:05,CUST-1014,"apel, anggur, es krim, jeruk, sosis, nugget, saos",7,142000,Tunai
+TRX-20240423-002,2024-04-23,18:27,CUST-1125,"kecap, tahu, air mineral, minyak goreng, tempe, pisang",6,60000,Tunai
+TRX-20240420-002,2024-04-20,09:18,CUST-1174,"jeruk, sosis",2,34000,Tunai
+TRX-20240226-001,2024-02-26,14:38,CUST-1015,"keripik, kecap, minyak goreng, teh, biskuit, bawang, ayam, gula",8,115000,Tunai
+TRX-20240131-001,2024-01-31,08:31,CUST-1192,"susu, anggur, kopi, gula, sampo",5,125000,Tunai
+TRX-20240523-004,2024-05-23,18:51,CUST-1091,"wortel, susu, tomat, bawang, kentang, keju, daging sapi, roti gandum",8,155000,Tunai
+TRX-20240120-001,2024-01-20,13:36,CUST-1110,"permen, bawang, kentang, keju, daging sapi, wortel",6,121000,Debit
+TRX-20240324-003,2024-03-24,10:51,CUST-1159,"susu, tomat, bawang, kentang, daging sapi, wortel",6,112000,QRIS
+TRX-20240303-002,2024-03-03,14:37,CUST-1103,"kecap, tahu, minyak goreng, ayam, tisu, tempe",6,91000,Tunai
+TRX-20240213-001,2024-02-13,09:32,CUST-1163,"keripik, soda, teh, biskuit, daging sapi, gula, deterjen, cokelat",8,147000,Kredit
+TRX-20240614-002,2024-06-14,10:15,CUST-1027,"susu, teh, biskuit, gula, kopi, nugget",6,111000,Tunai
+TRX-20240609-002,2024-06-09,15:29,CUST-1194,"es krim, gula, sosis, nugget, saos",5,94000,Debit
+TRX-20240608-001,2024-06-08,13:55,CUST-1161,"susu, kentang, yogurt, pisang",4,48000,Debit
+TRX-20240318-001,2024-03-18,20:17,CUST-1152,"keripik, soda, susu, roti tawar, bayam, bawang, telur, cokelat",8,95000,Tunai
+TRX-20240404-002,2024-04-04,12:04,CUST-1166,"kecap, saos",2,22000,Debit
+TRX-20240428-003,2024-04-28,17:35,CUST-1190,"nugget, gula",2,42000,Tunai
+TRX-20240603-002,2024-06-03,15:32,CUST-1039,"mentega, ayam",2,57000,Kredit
+TRX-20240122-001,2024-01-22,16:41,CUST-1045,"susu, bawang, kentang, jeruk, yogurt, saos, daging sapi, pisang, wortel",9,148000,Tunai
+TRX-20240405-002,2024-04-05,12:24,CUST-1105,"nugget, minyak goreng",2,50000,Tunai
+TRX-20240325-001,2024-03-25,09:35,CUST-1174,"kecap, minyak goreng, bawang, ayam",4,75000,Tunai
+TRX-20240618-004,2024-06-18,10:58,CUST-1090,"kecap, yogurt, tisu, sabun, sampo",5,72000,QRIS
+TRX-20240122-002,2024-01-22,12:35,CUST-1097,"minyak goreng, tomat, bawang, sosis, telur",5,82000,QRIS
+TRX-20240624-001,2024-06-24,16:05,CUST-1166,"croissant, ikan",2,48000,Tunai
+TRX-20240224-001,2024-02-24,13:49,CUST-1125,"susu, biskuit, permen, kopi, gula, cokelat",6,95000,QRIS
+TRX-20240126-002,2024-01-26,16:49,CUST-1139,"sosis, ayam",2,57000,QRIS
+TRX-20240607-001,2024-06-07,10:38,CUST-1097,"susu, kopi, gula, deterjen, keju, roti gandum",6,126000,Debit
+TRX-20240415-002,2024-04-15,13:43,CUST-1185,"susu, bawang, tisu, yogurt, pisang",5,53000,Tunai
+TRX-20240302-002,2024-03-02,12:51,CUST-1121,"ikan, es krim",2,50000,Kredit
+TRX-20240422-001,2024-04-22,15:49,CUST-1073,"kopi, jus jeruk",2,47000,QRIS
+TRX-20240205-001,2024-02-05,12:03,CUST-1165,"minyak goreng, tomat, bawang, sampo, telur",5,85000,QRIS
+TRX-20240201-003,2024-02-01,12:05,CUST-1196,"keripik, susu, soda, tomat, yogurt, cokelat, pisang",7,78000,Tunai
+TRX-20240226-002,2024-02-26,15:56,CUST-1090,"tempe, muffin",2,16000,Debit
+TRX-20240301-002,2024-03-01,14:05,CUST-1096,"minyak goreng, tomat, bawang, sampo, telur",5,85000,Debit
+TRX-20240207-003,2024-02-07,10:02,CUST-1074,"sabun, yogurt",2,26000,QRIS
+TRX-20240430-001,2024-04-30,15:39,CUST-1002,"keripik, air mineral",2,13000,QRIS
+TRX-20240520-003,2024-05-20,19:38,CUST-1136,"apel, anggur, jeruk, kacang, cokelat",5,86000,Tunai
+TRX-20240302-003,2024-03-02,14:40,CUST-1160,"kecap, susu, roti tawar, anggur, telur",5,99000,Tunai
+TRX-20240511-001,2024-05-11,17:15,CUST-1184,"kecap, tahu, mentega, minyak goreng, susu, roti tawar, gula, tempe, cokelat",9,126000,Debit
+TRX-20240619-004,2024-06-19,18:05,CUST-1135,"anggur, jeruk",2,47000,Debit
+TRX-20240509-002,2024-05-09,16:01,CUST-1100,"tahu, minyak goreng",2,29000,Kredit
+TRX-20240305-002,2024-03-05,19:01,CUST-1092,"cokelat, deterjen",2,33000,QRIS
+TRX-20240127-001,2024-01-27,20:37,CUST-1189,"daging sapi, roti gandum",2,80000,Debit
+TRX-20240613-002,2024-06-13,10:53,CUST-1200,"teh, minyak goreng",2,30000,QRIS
+TRX-20240117-001,2024-01-17,19:49,CUST-1118,"mentega, susu, teh, roti tawar, biskuit, gula, roti gandum",7,97000,Tunai
+TRX-20240320-002,2024-03-20,16:25,CUST-1140,"roti tawar, permen, mentega, susu",4,55000,Tunai
+TRX-20240113-002,2024-01-13,18:21,CUST-1070,"kecap, tahu, tempe, minyak goreng, tomat, bawang, tisu, telur",8,94000,QRIS
+TRX-20240408-003,2024-04-08,13:11,CUST-1128,"biskuit, jeruk",2,22000,QRIS
+TRX-20240418-001,2024-04-18,09:27,CUST-1155,"anggur, permen",2,40000,Tunai
+TRX-20240121-002,2024-01-21,13:42,CUST-1076,"kopi, sosis, sabun, nugget, saos",5,107000,Debit
+TRX-20240424-001,2024-04-24,08:46,CUST-1091,"kecap, tahu, minyak goreng, muffin, tempe",5,57000,Tunai
+TRX-20240612-004,2024-06-12,14:23,CUST-1132,"croissant, krim",2,38000,QRIS
+TRX-20240622-002,2024-06-22,20:28,CUST-1009,"ikan, tahu, apel, teh, anggur, biskuit, jeruk, gula",8,131000,Kredit
+TRX-20240109-001,2024-01-09,17:09,CUST-1174,"minyak goreng, tomat, bawang, telur, bagel",5,73000,Debit
+TRX-20240515-002,2024-05-15,13:25,CUST-1081,"croissant, teh, biskuit, gula",4,50000,QRIS
+TRX-20240507-002,2024-05-07,16:24,CUST-1144,"kecap, air mineral, apel, minyak goreng, anggur, bawang, ayam, jeruk, saos",9,152000,Tunai
+TRX-20240505-005,2024-05-05,11:07,CUST-1035,"teh, sampo",2,33000,Debit
+TRX-20240123-001,2024-01-23,20:43,CUST-1082,"anggur, mangga",2,53000,Tunai
+TRX-20240317-001,2024-03-17,10:45,CUST-1182,"ikan, pisang",2,38000,Tunai
+TRX-20240221-001,2024-02-21,20:08,CUST-1061,"ikan, mangga",2,48000,Debit
+TRX-20240429-003,2024-04-29,20:35,CUST-1034,"roti tawar, kacang, telur, susu",4,61000,Tunai
+TRX-20240502-001,2024-05-02,16:26,CUST-1197,"nugget, saos, yogurt, sosis",4,74000,Kredit
+TRX-20240613-003,2024-06-13,09:28,CUST-1120,"mangga, yogurt",2,32000,Debit
+TRX-20240216-001,2024-02-16,20:08,CUST-1111,"keju, susu, roti gandum",3,59000,Debit
+TRX-20240318-002,2024-03-18,10:10,CUST-1083,"jeruk, daging sapi",2,77000,QRIS
+TRX-20240121-003,2024-01-21,12:12,CUST-1163,"yogurt, minyak goreng",2,36000,Tunai
+TRX-20240516-001,2024-05-16,09:32,CUST-1165,"susu, gula, kopi, sosis, nugget, saos",6,125000,Debit
+TRX-20240603-003,2024-06-03,13:53,CUST-1145,"mentega, susu, roti tawar, keju, roti gandum",5,93000,Kredit
+TRX-20240527-002,2024-05-27,12:41,CUST-1054,"saos, minyak goreng",2,32000,Tunai
+TRX-20240609-003,2024-06-09,16:18,CUST-1165,"cokelat, es krim",2,35000,Debit
+TRX-20240426-004,2024-04-26,09:44,CUST-1016,"kecap, tahu, air mineral, minyak goreng, susu, ayam, yogurt, tempe, pisang",9,125000,Debit
+TRX-20240321-001,2024-03-21,19:20,CUST-1188,"tempe, yogurt",2,20000,QRIS
+TRX-20240511-002,2024-05-11,16:06,CUST-1082,"susu, roti tawar, bawang, telur, cokelat",5,73000,Tunai
+TRX-20240113-003,2024-01-13,12:24,CUST-1158,"keju, telur, susu, roti gandum",4,83000,Kredit
+TRX-20240321-002,2024-03-21,11:48,CUST-1041,"keripik, apel, soda, kacang, cokelat",5,56000,Debit
+TRX-20240124-002,2024-01-24,14:32,CUST-1118,"garam, daging sapi",2,70000,Tunai
+TRX-20240313-001,2024-03-13,15:38,CUST-1168,"anggur, roti tawar",2,47000,QRIS
+TRX-20240420-003,2024-04-20,10:56,CUST-1068,"ikan, roti gandum",2,45000,Debit
+TRX-20240525-003,2024-05-25,16:12,CUST-1093,"susu, roti tawar, bawang, telur, pisang",5,66000,QRIS
+TRX-20240312-001,2024-03-12,17:43,CUST-1157,"kecap, tahu, tempe, susu, minyak goreng, roti tawar, mangga, ayam, telur",9,152000,Kredit
+TRX-20240206-002,2024-02-06,11:38,CUST-1131,"roti tawar, mentega, susu, roti gandum",4,65000,Tunai
+TRX-20240326-001,2024-03-26,20:30,CUST-1133,"telur, nugget, saos, sosis",4,84000,Kredit
+TRX-20240322-002,2024-03-22,10:25,CUST-1158,"garam, ayam",2,40000,Debit
+TRX-20240510-002,2024-05-10,16:31,CUST-1182,"susu, ikan, yogurt, pisang",4,68000,Tunai
+TRX-20240129-001,2024-01-29,14:37,CUST-1079,"kecap, kentang",2,22000,Tunai
+TRX-20240616-002,2024-06-16,20:49,CUST-1149,"bawang, kentang, garam, daging sapi, wortel",5,93000,Debit
+TRX-20240514-002,2024-05-14,18:46,CUST-1159,"krim, es krim",2,40000,Tunai
+TRX-20240526-001,2024-05-26,19:07,CUST-1049,"kecap, tahu, tempe, minyak goreng, tomat, bawang, telur, wortel",8,92000,QRIS
+TRX-20240415-003,2024-04-15,16:49,CUST-1157,"sampo, yogurt",2,39000,Debit
+TRX-20240523-005,2024-05-23,13:42,CUST-1123,"minyak goreng, tomat, bayam, bawang, telur",5,65000,Kredit
+TRX-20240328-001,2024-03-28,16:22,CUST-1174,"kentang, saos",2,20000,Tunai
+TRX-20240304-003,2024-03-04,12:35,CUST-1077,"kecap, air mineral, minyak goreng, bawang, ayam, sampo",6,105000,QRIS
+TRX-20240505-006,2024-05-05,13:30,CUST-1090,"biskuit, permen, kopi, keju, cokelat",5,93000,Debit
+TRX-20240519-003,2024-05-19,14:57,CUST-1102,"permen, roti gandum",2,20000,Tunai
+TRX-20240121-004,2024-01-21,13:59,CUST-1114,"air mineral, jus jeruk",2,17000,QRIS
+TRX-20240310-002,2024-03-10,16:44,CUST-1070,"bawang, kentang, sosis, cokelat, nugget, saos, daging sapi, wortel",8,163000,Tunai
+TRX-20240515-003,2024-05-15,11:40,CUST-1060,"kecap, tahu, telur, mentega, minyak goreng, tomat, bawang, es krim, tempe",9,127000,QRIS
+TRX-20240102-003,2024-01-02,16:59,CUST-1041,"biskuit, kentang, kopi, nugget, cokelat",5,98000,Tunai
+TRX-20240314-003,2024-03-14,13:18,CUST-1166,"apel, susu, roti tawar, anggur, jeruk, telur",6,114000,QRIS
+TRX-20240110-002,2024-01-10,10:26,CUST-1046,"apel, tempe",2,21000,Tunai
+TRX-20240315-001,2024-03-15,08:00,CUST-1077,"susu, roti tawar, bayam, permen, telur",5,62000,Kredit
+TRX-20240519-004,2024-05-19,16:31,CUST-1035,"biskuit, jus jeruk",2,22000,QRIS
+TRX-20240325-002,2024-03-25,10:46,CUST-1118,"roti tawar, bawang, kentang, daging sapi, wortel",5,100000,QRIS
+TRX-20240316-002,2024-03-16,17:43,CUST-1194,"susu, tomat, sosis, keju, nugget, saos, pisang, roti gandum",8,135000,Tunai
+TRX-20240412-003,2024-04-12,18:06,CUST-1048,"telur, cokelat",2,39000,Tunai
+TRX-20240408-004,2024-04-08,11:28,CUST-1193,"minyak goreng, tomat, bawang, garam, deterjen, telur",6,83000,Debit
+TRX-20240307-002,2024-03-07,18:23,CUST-1178,"sabun, sampo, bayam, tisu",4,51000,Tunai
+TRX-20240413-002,2024-04-13,18:32,CUST-1181,"permen, minyak goreng",2,27000,Tunai
+TRX-20240226-003,2024-02-26,11:08,CUST-1123,"bawang, kentang, sosis, sabun, nugget, saos, daging sapi, wortel",8,160000,Debit
+TRX-20240430-002,2024-04-30,20:34,CUST-1171,"kecap, es krim",2,32000,QRIS
+TRX-20240121-005,2024-01-21,16:28,CUST-1136,"keju, gula",2,42000,Tunai
+TRX-20240520-004,2024-05-20,16:12,CUST-1147,"susu, bawang, jeruk, kopi, gula",5,83000,Tunai
+TRX-20240222-001,2024-02-22,19:37,CUST-1126,"keripik, susu, soda, bayam, yogurt, cokelat, pisang",7,75000,Tunai
+TRX-20240416-003,2024-04-16,15:36,CUST-1015,"croissant, tisu, deterjen, sabun, sampo",5,82000,Tunai
+TRX-20240101-001,2024-01-01,19:13,CUST-1149,"kecap, tahu, telur, minyak goreng, anggur, tomat, bawang, tempe",8,120000,Kredit
+TRX-20240118-002,2024-01-18,15:02,CUST-1074,"jeruk, nugget, apel, anggur",4,90000,Kredit
+TRX-20240614-003,2024-06-14,14:23,CUST-1098,"tahu, susu, biskuit, kopi, cokelat",5,83000,QRIS
+TRX-20240618-005,2024-06-18,16:08,CUST-1168,"teh, anggur",2,43000,Tunai
+TRX-20240202-002,2024-02-02,19:14,CUST-1001,"bayam, es krim",2,25000,QRIS
+TRX-20240418-002,2024-04-18,16:24,CUST-1059,"minyak goreng, tomat, biskuit, bawang, telur",5,70000,Tunai
+TRX-20240129-002,2024-01-29,08:51,CUST-1170,"jeruk, apel, cokelat, anggur",4,77000,Tunai
+TRX-20240126-003,2024-01-26,17:02,CUST-1115,"daging sapi, bawang, kentang, cokelat, wortel",5,103000,QRIS
+TRX-20240412-004,2024-04-12,15:14,CUST-1139,"keju, yogurt, susu, roti gandum",4,73000,Debit
+TRX-20240315-002,2024-03-15,11:52,CUST-1188,"sosis, kacang, nugget, saos, cokelat",5,84000,QRIS
+TRX-20240618-006,2024-06-18,16:14,CUST-1106,"roti tawar, minyak goreng, mentega, susu",4,72000,QRIS
+TRX-20240522-001,2024-05-22,15:03,CUST-1089,"telur, jeruk",2,36000,QRIS
+TRX-20240414-001,2024-04-14,10:19,CUST-1097,"keripik, susu, soda, yogurt, cokelat, pisang",6,70000,Tunai
+TRX-20240206-003,2024-02-06,20:29,CUST-1015,"kecap, tahu, tempe, minyak goreng",4,47000,Tunai
+TRX-20240222-002,2024-02-22,13:41,CUST-1021,"anggur, susu",2,51000,QRIS
+TRX-20240218-003,2024-02-18,08:17,CUST-1097,"bagel, jus jeruk",2,25000,QRIS
+TRX-20240530-001,2024-05-30,19:42,CUST-1144,"teh, roti tawar, biskuit, gula, kacang",5,53000,Tunai
+TRX-20240218-004,2024-02-18,19:07,CUST-1192,"sabun, cokelat",2,27000,Debit
+TRX-20240222-003,2024-02-22,14:58,CUST-1062,"tahu, apel, anggur, bayam, jeruk",5,74000,Debit
+TRX-20240401-001,2024-04-01,12:16,CUST-1093,"mentega, susu, yogurt, deterjen, pisang",5,78000,Debit
+TRX-20240322-003,2024-03-22,11:23,CUST-1081,"nugget, saos, tisu, sosis",4,69000,Tunai
+TRX-20240307-003,2024-03-07,16:59,CUST-1150,"kecap, tahu, minyak goreng, jus jeruk, tempe, krim",6,79000,Tunai
+TRX-20240407-002,2024-04-07,17:53,CUST-1063,"keripik, apel, tisu, sabun, sampo",5,69000,Kredit
+TRX-20240613-004,2024-06-13,19:31,CUST-1118,"apel, minyak goreng, anggur, tomat, bawang, jeruk, yogurt, telur",8,136000,QRIS
+TRX-20240505-007,2024-05-05,10:58,CUST-1139,"jeruk, roti gandum",2,27000,QRIS
+TRX-20240120-002,2024-01-20,18:03,CUST-1196,"susu, kopi, gula, keju, bagel, roti gandum",6,121000,QRIS
+TRX-20240103-001,2024-01-03,11:32,CUST-1117,"apel, nugget, saos, sosis",4,75000,Tunai
+TRX-20240516-002,2024-05-16,16:26,CUST-1004,"kecap, minyak goreng, croissant, bawang, ayam, kentang, daging sapi, pisang, wortel",9,183000,QRIS
+TRX-20240621-001,2024-06-21,14:51,CUST-1046,"keripik, soda, susu, roti tawar, telur, cokelat",6,84000,Tunai
+TRX-20240514-003,2024-05-14,12:52,CUST-1091,"kecap, tahu, ikan, minyak goreng, tempe",5,77000,Kredit
+TRX-20240427-002,2024-04-27,17:15,CUST-1179,"sabun, sampo, nugget, tisu",4,74000,Kredit
+TRX-20240615-003,2024-06-15,20:02,CUST-1024,"kecap, tahu, minyak goreng, muffin, tempe",5,57000,Tunai
+TRX-20240213-002,2024-02-13,09:31,CUST-1112,"minyak goreng, tomat, bawang, jeruk, telur",5,72000,Kredit
+TRX-20240228-002,2024-02-28,11:57,CUST-1178,"biskuit, roti gandum",2,25000,Kredit
+TRX-20240624-002,2024-06-24,12:57,CUST-1140,"roti tawar, telur, mentega, susu",4,74000,Tunai
+TRX-20240223-002,2024-02-23,17:09,CUST-1193,"kacang, bagel",2,22000,Tunai
+TRX-20240302-004,2024-03-02,17:53,CUST-1100,"tahu, tisu",2,16000,Tunai
+TRX-20240625-005,2024-06-25,19:05,CUST-1129,"mentega, muffin",2,32000,Debit
+TRX-20240120-003,2024-01-20,13:38,CUST-1197,"croissant, nugget, sosis, telur, saos",5,102000,Debit
+TRX-20240425-001,2024-04-25,15:14,CUST-1092,"kecap, tahu, minyak goreng, teh, es krim, tempe",6,75000,Debit
+TRX-20240407-003,2024-04-07,09:49,CUST-1159,"teh, biskuit, gula, susu",4,48000,Tunai
+TRX-20240407-004,2024-04-07,19:50,CUST-1163,"kecap, tahu, telur, mentega, minyak goreng, susu, tomat, bawang, tempe",9,123000,Tunai
+TRX-20240319-002,2024-03-19,15:23,CUST-1195,"susu, teh, kopi, gula",4,73000,Debit
+TRX-20240522-002,2024-05-22,16:32,CUST-1105,"kecap, susu, minyak goreng, roti tawar, tomat, bawang, telur",7,100000,Debit
+TRX-20240324-004,2024-03-24,14:00,CUST-1075,"jeruk, deterjen, apel, anggur",4,80000,Kredit
+TRX-20240303-003,2024-03-03,17:33,CUST-1044,"biskuit, yogurt",2,24000,Tunai
+TRX-20240506-001,2024-05-06,10:04,CUST-1043,"kecap, tahu, minyak goreng, kentang, tempe, bagel",6,70000,Tunai
+TRX-20240304-004,2024-03-04,19:40,CUST-1127,"mentega, teh, biskuit, gula, yogurt",5,68000,Tunai
+TRX-20240411-002,2024-04-11,13:53,CUST-1159,"susu, bawang, ayam, keju, roti gandum",5,100000,Debit
+TRX-20240615-004,2024-06-15,17:08,CUST-1077,"kentang, daging sapi, bawang, wortel",4,88000,Tunai
+TRX-20240411-003,2024-04-11,13:18,CUST-1189,"gula, cokelat",2,29000,Tunai
+TRX-20240312-002,2024-03-12,20:25,CUST-1094,"teh, biskuit, es krim, gula, sosis, nugget, saos",7,112000,QRIS
+TRX-20240107-001,2024-01-07,19:29,CUST-1182,"apel, anggur, jeruk, sabun, bagel",5,87000,QRIS
+TRX-20240414-002,2024-04-14,18:31,CUST-1036,"teh, biskuit, gula, sosis, krim",5,74000,QRIS
+TRX-20240406-002,2024-04-06,09:28,CUST-1154,"kecap, tahu, minyak goreng, anggur, tempe, roti gandum",6,97000,QRIS
+TRX-20240402-001,2024-04-02,19:57,CUST-1138,"mentega, biskuit, kopi, cokelat",4,82000,QRIS
+TRX-20240617-003,2024-06-17,18:22,CUST-1043,"mentega, susu, roti tawar, tomat, ayam",5,93000,Tunai
+TRX-20240126-004,2024-01-26,12:14,CUST-1131,"ikan, bawang",2,36000,Tunai
+TRX-20240622-003,2024-06-22,17:44,CUST-1129,"mentega, susu, roti tawar, permen, yogurt, pisang",6,77000,Debit
+TRX-20240122-003,2024-01-22,09:53,CUST-1187,"kecap, air mineral, minyak goreng, tomat, bawang, ayam, jeruk, telur",8,124000,Debit
+TRX-20240501-003,2024-05-01,09:28,CUST-1185,"kacang, bagel",2,22000,Tunai
+TRX-20240130-001,2024-01-30,08:54,CUST-1088,"sabun, sampo, tisu",3,46000,Tunai
+TRX-20240214-002,2024-02-14,16:10,CUST-1085,"susu, tempe, yogurt, pisang",4,44000,Debit
+TRX-20240217-001,2024-02-17,18:42,CUST-1111,"kentang, daging sapi, bawang, wortel",4,88000,Debit
+TRX-20240409-001,2024-04-09,08:45,CUST-1055,"jeruk, apel, gula, anggur",4,76000,Tunai
+TRX-20240517-004,2024-05-17,10:23,CUST-1084,"kecap, susu, minyak goreng, roti tawar, bawang, ayam, jeruk, telur",8,139000,Tunai
+TRX-20240409-002,2024-04-09,17:25,CUST-1151,"minyak goreng, susu, teh, tomat, bawang, keju, telur, saos, roti gandum",9,137000,QRIS
+TRX-20240629-002,2024-06-29,20:19,CUST-1158,"telur, sabun, sampo, tisu",4,70000,Tunai
+TRX-20240319-003,2024-03-19,09:11,CUST-1096,"kecap, wortel",2,19000,Tunai
+TRX-20240408-005,2024-04-08,14:11,CUST-1125,"mangga, bawang, kentang, daging sapi, wortel",5,106000,Tunai
+TRX-20240314-004,2024-03-14,10:11,CUST-1081,"roti tawar, daging sapi",2,77000,Debit
+TRX-20240219-001,2024-02-19,14:35,CUST-1130,"apel, es krim",2,35000,Debit
+TRX-20240423-003,2024-04-23,15:10,CUST-1022,"jeruk, apel, anggur, permen",4,67000,Tunai
+TRX-20240227-003,2024-02-27,16:18,CUST-1044,"mangga, pisang",2,26000,Tunai
+TRX-20240130-002,2024-01-30,12:49,CUST-1140,"anggur, roti gandum",2,50000,QRIS
+TRX-20240422-002,2024-04-22,16:13,CUST-1109,"susu, kacang, tisu, keju, sabun, sampo, roti gandum",7,114000,QRIS
+TRX-20240109-002,2024-01-09,15:16,CUST-1090,"keju, bawang",2,34000,QRIS
+TRX-20240301-003,2024-03-01,11:51,CUST-1189,"minyak goreng, tomat, bawang, kopi, telur, saos",6,105000,Tunai
+TRX-20240222-004,2024-02-22,11:51,CUST-1016,"keripik, kecap, soda, anggur, cokelat",5,79000,Tunai
+TRX-20240629-003,2024-06-29,12:18,CUST-1147,"keju, yogurt, susu, roti gandum",4,73000,Kredit
+TRX-20240415-004,2024-04-15,08:17,CUST-1168,"susu, gula, kopi, keju, krim, roti gandum",6,128000,QRIS
+TRX-20240304-005,2024-03-04,20:53,CUST-1174,"susu, minyak goreng, kopi, gula, wortel",5,94000,Tunai
+TRX-20240120-004,2024-01-20,18:50,CUST-1197,"keripik, ikan, soda, bawang, kentang, cokelat, sabun, daging sapi, wortel",9,162000,Debit
+TRX-20240504-002,2024-05-04,13:37,CUST-1001,"bayam, deterjen",2,23000,Debit
+TRX-20240627-002,2024-06-27,13:54,CUST-1017,"air mineral, tomat",2,13000,QRIS
+TRX-20240506-002,2024-05-06,12:20,CUST-1073,"gula, nugget, saos, sosis",4,74000,QRIS
+TRX-20240328-002,2024-03-28,18:48,CUST-1013,"apel, croissant, anggur, jeruk, tisu, keju, sabun, sampo",8,154000,Kredit
+TRX-20240210-001,2024-02-10,15:29,CUST-1001,"sabun, jus jeruk",2,24000,Kredit
+TRX-20240615-005,2024-06-15,12:10,CUST-1071,"kecap, ikan, minyak goreng, tomat, bawang, ayam, telur",7,137000,QRIS
+TRX-20240615-006,2024-06-15,10:03,CUST-1102,"tomat, bawang, kentang, daging sapi, wortel",5,96000,QRIS
+TRX-20240629-004,2024-06-29,09:00,CUST-1055,"susu, jeruk, kopi, gula",4,77000,QRIS
+TRX-20240103-002,2024-01-03,08:44,CUST-1088,"sabun, yogurt",2,26000,Debit
+TRX-20240228-003,2024-02-28,14:05,CUST-1188,"ikan, telur",2,54000,QRIS
+TRX-20240205-002,2024-02-05,14:49,CUST-1193,"jeruk, bagel",2,25000,Debit
+TRX-20240605-002,2024-06-05,18:10,CUST-1113,"teh, biskuit, gula, wortel",4,39000,Debit
+TRX-20240423-004,2024-04-23,11:05,CUST-1026,"telur, susu, roti tawar, tomat, sosis, nugget, saos, daging sapi",8,185000,Tunai
+TRX-20240205-003,2024-02-05,11:17,CUST-1166,"keripik, soda, croissant, sosis, sabun, nugget, saos, cokelat",8,122000,QRIS
+TRX-20240617-004,2024-06-17,12:13,CUST-1133,"teh, biskuit, permen, gula, nugget",5,65000,Tunai
+TRX-20240302-005,2024-03-02,15:24,CUST-1029,"jeruk, sabun, sampo, tisu",4,58000,QRIS
+TRX-20240104-002,2024-01-04,13:59,CUST-1082,"ikan, susu, anggur, biskuit, kopi, keju, cokelat, roti gandum",8,184000,QRIS
+TRX-20240430-003,2024-04-30,20:04,CUST-1005,"air mineral, mentega, susu, roti tawar, roti gandum",5,70000,Kredit
+TRX-20240411-004,2024-04-11,16:18,CUST-1161,"tomat, sabun",2,20000,Debit
+TRX-20240612-005,2024-06-12,16:34,CUST-1158,"kecap, susu, minyak goreng, roti tawar, bawang, ayam, telur, pisang",8,135000,Kredit
+TRX-20240209-002,2024-02-09,16:20,CUST-1101,"jeruk, kacang, apel, anggur",4,71000,QRIS
+TRX-20240302-006,2024-03-02,08:15,CUST-1023,"bayam, saos",2,15000,Debit
+TRX-20240320-003,2024-03-20,18:47,CUST-1169,"roti tawar, sampo",2,37000,Tunai
+TRX-20240103-003,2024-01-03,10:31,CUST-1089,"ikan, apel, anggur, jeruk, kopi",5,127000,Tunai
+TRX-20240309-001,2024-03-09,19:56,CUST-1031,"tomat, ayam",2,43000,Tunai
+TRX-20240117-002,2024-01-17,12:45,CUST-1148,"susu, ikan, yogurt, pisang",4,68000,Tunai
+TRX-20240525-004,2024-05-25,10:23,CUST-1041,"roti tawar, telur, soda, susu",4,61000,QRIS
+TRX-20240101-002,2024-01-01,08:54,CUST-1004,"tahu, susu, yogurt, krim, pisang",5,65000,Tunai
+TRX-20240110-003,2024-01-10,16:51,CUST-1183,"telur, soda",2,33000,Tunai
+TRX-20240322-004,2024-03-22,12:52,CUST-1020,"roti tawar, teh, telur, susu",4,60000,Tunai
+TRX-20240512-001,2024-05-12,08:25,CUST-1018,"kacang, telur",2,33000,Tunai
+TRX-20240426-005,2024-04-26,08:23,CUST-1052,"apel, anggur, jeruk, tisu, saos",5,81000,Tunai
+TRX-20240404-003,2024-04-04,17:31,CUST-1198,"roti tawar, krim",2,32000,Kredit
+TRX-20240107-002,2024-01-07,11:34,CUST-1089,"bawang, ayam, kentang, daging sapi, wortel",5,123000,Tunai
+TRX-20240617-005,2024-06-17,14:54,CUST-1189,"air mineral, jeruk",2,17000,Kredit
+TRX-20240417-001,2024-04-17,15:03,CUST-1037,"soda, roti gandum",2,24000,QRIS
+TRX-20240513-002,2024-05-13,14:44,CUST-1096,"bawang, kentang, garam, daging sapi, wortel",5,93000,Tunai
+TRX-20240204-001,2024-02-04,18:52,CUST-1101,"mentega, susu, roti tawar, yogurt, sosis, nugget, saos",7,124000,Tunai
+TRX-20240307-004,2024-03-07,13:59,CUST-1101,"telur, bawang",2,30000,Tunai
+TRX-20240120-005,2024-01-20,11:08,CUST-1200,"mentega, krim",2,42000,Tunai
+TRX-20240429-004,2024-04-29,13:26,CUST-1031,"jeruk, apel, anggur, bawang",4,68000,Tunai
+TRX-20240308-005,2024-03-08,09:05,CUST-1041,"sabun, sampo",2,37000,Debit
+TRX-20240225-002,2024-02-25,13:09,CUST-1024,"tempe, pisang",2,14000,Tunai
+TRX-20240317-002,2024-03-17,12:52,CUST-1045,"kecap, tahu, minyak goreng, susu, mangga, tisu, keju, tempe, roti gandum",9,133000,Debit
+TRX-20240125-001,2024-01-25,15:06,CUST-1036,"mentega, susu, roti tawar, yogurt, keju, roti gandum",6,107000,Tunai
+TRX-20240412-005,2024-04-12,13:43,CUST-1162,"keripik, garam",2,13000,Kredit
+TRX-20240120-006,2024-01-20,08:04,CUST-1051,"yogurt, susu",2,30000,Kredit
+TRX-20240325-003,2024-03-25,09:02,CUST-1119,"tempe, biskuit, kopi, sosis, deterjen, nugget, saos, cokelat",8,144000,Debit
+TRX-20240407-005,2024-04-07,18:27,CUST-1045,"biskuit, kopi, cokelat",3,60000,Tunai
+TRX-20240208-001,2024-02-08,08:39,CUST-1159,"apel, tisu, sabun, sampo, wortel",5,68000,QRIS
+TRX-20240502-002,2024-05-02,08:05,CUST-1072,"kecap, tahu, minyak goreng, nugget, tempe",5,75000,QRIS
+TRX-20240514-004,2024-05-14,11:40,CUST-1140,"sampo, daging sapi",2,90000,Debit
+TRX-20240504-003,2024-05-04,13:58,CUST-1145,"kecap, tahu, minyak goreng, croissant, teh, tempe",6,73000,Tunai
+TRX-20240226-004,2024-02-26,08:57,CUST-1200,"jeruk, apel, daging sapi, anggur",4,127000,QRIS
+TRX-20240229-003,2024-02-29,10:06,CUST-1064,"anggur, tisu",2,44000,Tunai
+TRX-20240226-005,2024-02-26,17:54,CUST-1100,"keju, teh, susu, roti gandum",4,67000,Tunai
+TRX-20240322-005,2024-03-22,20:47,CUST-1179,"nugget, saos, sosis, sampo",4,85000,QRIS
+TRX-20240525-005,2024-05-25,17:09,CUST-1145,"anggur, kacang",2,44000,Tunai
+TRX-20240110-004,2024-01-10,09:03,CUST-1060,"roti tawar, mentega, susu, ayam",4,85000,Kredit
+TRX-20240221-002,2024-02-21,20:08,CUST-1088,"croissant, muffin",2,28000,Tunai
+TRX-20240629-005,2024-06-29,10:49,CUST-1029,"ikan, bagel",2,43000,QRIS
+TRX-20240618-007,2024-06-18,14:37,CUST-1026,"minyak goreng, tomat, bawang, kopi, telur",5,95000,QRIS
+TRX-20240421-001,2024-04-21,20:40,CUST-1125,"susu, soda, kopi, gula, sosis",5,96000,Debit
+TRX-20240214-003,2024-02-14,14:19,CUST-1188,"teh, deterjen",2,26000,Tunai
+TRX-20240628-002,2024-06-28,17:25,CUST-1198,"teh, kecap",2,20000,Tunai
+TRX-20240605-003,2024-06-05,11:40,CUST-1145,"susu, gula, kopi, yogurt, tisu, bagel, pisang",7,109000,Tunai
+TRX-20240322-006,2024-03-22,10:40,CUST-1023,"roti tawar, bawang",2,18000,Tunai
+TRX-20240304-006,2024-03-04,19:04,CUST-1090,"roti tawar, telur, susu, muffin",4,62000,Tunai
+TRX-20240417-002,2024-04-17,10:56,CUST-1106,"kecap, tahu, minyak goreng, anggur, tempe",5,82000,Tunai
+TRX-20240502-003,2024-05-02,20:55,CUST-1148,"kopi, bawang",2,41000,Tunai
+TRX-20240109-003,2024-01-09,12:01,CUST-1082,"roti tawar, telur, susu, ayam",4,87000,Tunai
+TRX-20240406-003,2024-04-06,10:46,CUST-1020,"biskuit, kopi, cokelat, ayam",4,95000,Debit
+TRX-20240606-001,2024-06-06,15:45,CUST-1008,"kecap, sabun, sampo, tisu",4,58000,QRIS
+TRX-20240210-002,2024-02-10,08:06,CUST-1085,"teh, biskuit, mangga, gula, sabun",5,62000,QRIS
+TRX-20240518-002,2024-05-18,12:42,CUST-1073,"roti tawar, telur, tempe, susu",4,58000,Debit
+TRX-20240505-008,2024-05-05,10:03,CUST-1093,"kecap, mentega, susu, minyak goreng, jus jeruk, roti tawar, bawang, ayam, telur",9,161000,Tunai
+TRX-20240213-003,2024-02-13,18:18,CUST-1021,"tempe, susu, roti tawar, kentang, telur",5,68000,Debit
+TRX-20240618-008,2024-06-18,12:05,CUST-1165,"ikan, tahu, susu, kopi, gula",5,102000,Tunai
+TRX-20240112-003,2024-01-12,12:28,CUST-1120,"susu, gula, muffin, keju, roti gandum",5,83000,Tunai
+TRX-20240627-003,2024-06-27,18:06,CUST-1022,"garam, soda",2,14000,Debit
+TRX-20240409-003,2024-04-09,16:26,CUST-1138,"gula, cokelat",2,29000,Debit
+TRX-20240121-006,2024-01-21,14:57,CUST-1183,"keripik, soda, sosis, keju, nugget, saos, cokelat",7,120000,Kredit
+TRX-20240424-002,2024-04-24,10:10,CUST-1055,"tomat, roti gandum",2,23000,Tunai
+TRX-20240623-001,2024-06-23,14:12,CUST-1161,"kecap, bagel, minyak goreng, bawang, ayam, sosis, deterjen, nugget, saos",9,166000,Tunai
+TRX-20240522-003,2024-05-22,14:35,CUST-1084,"roti tawar, sabun",2,24000,Debit
+TRX-20240513-003,2024-05-13,20:26,CUST-1029,"susu, kopi, mentega, gula",4,87000,Debit
+TRX-20240126-005,2024-01-26,20:18,CUST-1138,"keripik, tahu",2,15000,QRIS
+TRX-20240526-002,2024-05-26,17:30,CUST-1010,"kecap, tahu, minyak goreng, susu, kopi, gula, tempe, roti gandum",8,127000,QRIS
+TRX-20240325-004,2024-03-25,19:15,CUST-1013,"croissant, ikan",2,48000,Tunai
+TRX-20240318-003,2024-03-18,12:17,CUST-1126,"yogurt, soda",2,23000,Tunai
+TRX-20240423-005,2024-04-23,20:52,CUST-1083,"kecap, tahu, minyak goreng, jus jeruk, tempe",5,59000,Debit
+TRX-20240414-003,2024-04-14,19:31,CUST-1195,"minyak goreng, tomat, bawang, telur, pisang",5,68000,QRIS
+TRX-20240117-003,2024-01-17,12:45,CUST-1130,"jeruk, teh, apel, anggur",4,70000,Tunai
+TRX-20240221-003,2024-02-21,08:15,CUST-1009,"jus jeruk, biskuit, kopi, sampo, cokelat",5,97000,Tunai
+TRX-20240428-004,2024-04-28,16:25,CUST-1163,"ikan, cokelat",2,45000,Debit
+TRX-20240424-003,2024-04-24,10:55,CUST-1122,"keripik, minyak goreng, tomat, bawang, kopi, telur",6,103000,QRIS
+TRX-20240625-006,2024-06-25,09:18,CUST-1008,"susu, soda, kopi, gula",4,74000,Debit
+TRX-20240622-004,2024-06-22,11:17,CUST-1167,"roti tawar, kentang, mentega, susu",4,60000,Kredit
+TRX-20240614-004,2024-06-14,10:38,CUST-1003,"nugget, saos, sosis, sampo",4,85000,Tunai
+TRX-20240406-004,2024-04-06,13:29,CUST-1065,"kecap, mentega, minyak goreng, bawang, ayam, garam",6,102000,Tunai
+TRX-20240618-009,2024-06-18,13:35,CUST-1166,"kecap, mentega, minyak goreng, es krim, bawang, ayam",6,117000,Debit
+TRX-20240327-002,2024-03-27,12:40,CUST-1084,"nugget, sampo",2,53000,Kredit
+TRX-20240615-007,2024-06-15,12:12,CUST-1039,"teh, biskuit, gula, kecap",4,44000,Debit
+TRX-20240322-007,2024-03-22,18:08,CUST-1185,"kecap, susu, minyak goreng, bawang, ayam, yogurt, tempe, pisang, wortel",9,126000,Tunai
+TRX-20240110-005,2024-01-10,17:45,CUST-1147,"sampo, deterjen",2,43000,Tunai
+TRX-20240516-003,2024-05-16,18:50,CUST-1122,"kacang, pisang",2,17000,QRIS
+TRX-20240617-006,2024-06-17,16:11,CUST-1076,"susu, mangga, bawang, kentang, kopi, gula, deterjen, daging sapi, wortel",9,189000,QRIS
+TRX-20240216-002,2024-02-16,18:57,CUST-1086,"daging sapi, soda",2,74000,QRIS
+TRX-20240319-004,2024-03-19,14:50,CUST-1085,"bayam, sosis, keju, nugget, saos",5,93000,Debit
+TRX-20240611-002,2024-06-11,17:37,CUST-1159,"teh, biskuit, es krim, kopi, gula, cokelat",6,102000,Tunai
+TRX-20240317-003,2024-03-17,14:03,CUST-1039,"minyak goreng, teh, tomat, biskuit, bayam, bawang, gula, telur",8,97000,Tunai
+TRX-20240216-003,2024-02-16,20:05,CUST-1125,"susu, minyak goreng, kopi, gula, muffin",5,97000,Tunai
+TRX-20240311-001,2024-03-11,11:48,CUST-1199,"apel, susu, anggur, jeruk, gula, kopi, yogurt",7,141000,Debit
+TRX-20240611-003,2024-06-11,14:25,CUST-1110,"roti tawar, roti gandum",2,27000,Debit
+TRX-20240405-003,2024-04-05,08:57,CUST-1083,"croissant, es krim",2,38000,Tunai
+TRX-20240304-007,2024-03-04,11:44,CUST-1089,"susu, roti tawar, garam, telur, pisang",5,65000,Tunai
+TRX-20240117-004,2024-01-17,08:19,CUST-1075,"keripik, soda, tomat, es krim, cokelat",5,60000,Kredit
+TRX-20240328-003,2024-03-28,15:22,CUST-1193,"apel, soda, croissant, anggur, biskuit, jeruk, kopi, cokelat",8,149000,Tunai
+TRX-20240203-003,2024-02-03,11:46,CUST-1006,"susu, kopi, ikan, gula",4,95000,QRIS
+TRX-20240110-006,2024-01-10,14:56,CUST-1164,"keripik, kecap, cokelat, soda",4,44000,Kredit
+TRX-20240618-010,2024-06-18,09:41,CUST-1006,"kecap, tahu, tempe, susu, minyak goreng, roti tawar, keju, telur",8,127000,Debit
+TRX-20240501-004,2024-05-01,19:09,CUST-1053,"kacang, wortel",2,16000,QRIS
+TRX-20240618-011,2024-06-18,16:17,CUST-1160,"mentega, susu, kopi, gula, pisang",5,95000,QRIS
+TRX-20240131-002,2024-01-31,12:07,CUST-1028,"keripik, nugget, saos, sosis",4,68000,QRIS
+TRX-20240221-004,2024-02-21,13:45,CUST-1105,"air mineral, mentega, susu, roti tawar, sabun",5,67000,Kredit
+TRX-20240325-005,2024-03-25,11:00,CUST-1004,"gula, sosis",2,36000,Debit
+TRX-20240124-003,2024-01-24,20:32,CUST-1020,"keripik, nugget",2,36000,Tunai
+TRX-20240316-003,2024-03-16,12:29,CUST-1013,"susu, permen, kopi, gula, keju, roti gandum",6,113000,Tunai
+TRX-20240622-005,2024-06-22,13:27,CUST-1190,"apel, susu, anggur, roti tawar, jeruk, keju, roti gandum",7,133000,QRIS
+TRX-20240618-012,2024-06-18,18:10,CUST-1085,"susu, deterjen, yogurt, pisang",4,56000,Tunai
+TRX-20240328-004,2024-03-28,10:07,CUST-1103,"tahu, susu, yogurt, sabun, pisang",5,57000,QRIS
+TRX-20240417-003,2024-04-17,18:56,CUST-1043,"biskuit, bawang, kentang, kopi, cokelat, daging sapi, wortel",7,148000,Tunai
+TRX-20240531-002,2024-05-31,15:51,CUST-1146,"tahu, saos",2,17000,QRIS
+TRX-20240605-004,2024-06-05,08:55,CUST-1176,"kentang, apel",2,25000,Tunai
+TRX-20240415-005,2024-04-15,15:02,CUST-1017,"minyak goreng, tomat, bawang, sampo, telur",5,85000,QRIS
+TRX-20240514-005,2024-05-14,20:47,CUST-1148,"sosis, ayam",2,57000,Debit
+TRX-20240625-007,2024-06-25,19:39,CUST-1025,"kentang, daging sapi, bawang, wortel",4,88000,Tunai
+TRX-20240622-006,2024-06-22,18:24,CUST-1039,"roti tawar, nugget",2,40000,Kredit
+TRX-20240509-003,2024-05-09,15:54,CUST-1127,"telur, apel",2,39000,Tunai
+TRX-20240312-003,2024-03-12,08:32,CUST-1058,"kecap, tahu, minyak goreng, susu, tempe, cokelat",6,78000,Debit
+TRX-20240526-003,2024-05-26,15:05,CUST-1128,"telur, susu, roti tawar, tisu, nugget",5,89000,Tunai
